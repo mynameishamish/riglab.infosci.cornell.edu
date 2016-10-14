@@ -33,7 +33,7 @@ $(() => {
     } else {
       $("#publications .card").animate({
         "height": $("#publications .card").get(0).scrollHeight
-      }, 500, () => {$(".pub-overlay span").css("transform", "scaleY(-1)");});      
+      }, 500, () => {$(".pub-overlay span").css("transform", "scaleY(-1)");});
     }
 
   });
@@ -60,7 +60,7 @@ $(() => {
 
   // Veno box
   /* default settings */
-  $('.venobox').venobox(); 
+  $('.venobox').venobox();
 
   /* custom settings */
   $('.venobox_custom').venobox({
@@ -79,7 +79,7 @@ $(() => {
 
   // Initialize Map
   var initializeMap = () => {
-    var cornellTechLatLng = {lat: 40.740918, lng: -74.0043697};
+    var cornellTechLatLng = {lat: 42.444954, lng: -76.481292};
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
       center: cornellTechLatLng,
