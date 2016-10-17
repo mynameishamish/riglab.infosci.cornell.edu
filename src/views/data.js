@@ -59,39 +59,47 @@ var projects = [
 var people = [
   {
     name: 'Malte Jung',
-    title: 'Associate Professor',
+    title: 'Assistant Professor',
     link: 'http://infosci.cornell.edu/faculty/malte-jung',
     image: '/assets/img/people/malte.jpg',
-    email: 'mfj28@cornell.edu',
-    twitter: '#'
+    email: 'mfj28@cornell.edu'
   },
   {
     name: 'Solace Shen',
     title: 'Post Doctoral Researcher',
     link: 'http://infosci.cornell.edu/forward-thinking-people/research-staff/solace-shen',
     image: '/assets/img/people/solace.jpg',
-    email: 'solace.shen@cornell.edu',
-    twitter: '#'
+    email: 'solace.shen@cornell.edu'
   },
   {
     name: 'Gabriel Culbertson',
     title: 'PhD Student',
     link: 'http://infosci.cornell.edu/forward-thinking-people/gabriel-culbertson',
     image: '/assets/img/people/gabriel.jpg',
-    email: 'grc74@cornell.edu',
-    twitter: '#'
+    email: 'grc74@cornell.edu'
   },
   {
     name: 'Hamish Tennent',
     title: 'Researcher',
     link: 'http://infosci.cornell.edu/forward-thinking-people/research-staff/hamish-tennent',
     image: '/assets/img/people/hamish.jpg',
-    email: 'ht353@cornell.edu',
-    twitter: '#'
+    email: 'ht353@cornell.edu'
   },
 
 
 ];
+
+
+var projectareas = [
+  {
+    name: 'Title',
+    text: 'Assistant Professor',
+    
+  },
+
+
+];
+
 
 
 var news = [

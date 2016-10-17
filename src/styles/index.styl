@@ -41,7 +41,7 @@ h2
   overflow hidden
   z-index -100
   @media screen and (max-width: 900px)
-    background-image url('/assets/bg_video_fallback.jpg')
+    //background-image url('/assets/bg_video_fallback.jpg')
     background-size cover
 
 .fullscreen-bg-video
@@ -66,7 +66,7 @@ h2
     font-variant small-caps
     font-size 60px
     font-weight 700
-    text-shadow 0 1px 0 rgba(0,0,0,.8)
+    // text-shadow 0 1px 0 rgba(0,0,0,.8)
     margin-bottom 20px
   .header
     position absolute
@@ -78,12 +78,13 @@ h2
     width 60%
     transform translate(-50%, -50%)
     color #fff
+
     .desc
       font-size 22px
       font-weight 400
       width 90%
       margin auto
-      color rgba(255,255,255,.8)
+      color rgba(0,0,0,.8)
   .header-stick
     display block
     position fixed
@@ -92,7 +93,7 @@ h2
     top 0
     background linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0))
     width 100vw
-    color #fff
+    color #000000
     z-index 10
     .title
       display none
@@ -104,7 +105,7 @@ h2
       padding-right 5%
       display inline-block
       line-height 70px
-      text-shadow 0 1px 0 rgba(0,0,0,.8)
+      // text-shadow 0 1px 0 rgba(0,0,0,.8)
       font-size 20px
       &:hover
         cursor pointer
@@ -118,7 +119,7 @@ h2
         left 5vw
       background-color rgba(0,0,0,.5)
       width 200px
-      color #fff
+      color #000000
       border-radius 3px
       padding-left 30px
       li
@@ -133,16 +134,16 @@ h2
     margin-right auto
     background-color rgba(255, 255, 255, .95)
     padding 40px 40px
-    border-radius 2px
-    box-shadow 0 0 25px rgba(0,0,0,.42)
+    // border-radius 2px
+    // box-shadow 0 0 25px rgba(0,0,0,.42)
     overflow hidden
     a
-      color theme-blue
+      color theme-gold
       &:hover
-        color theme-blue-hover
-    
+        color theme-gold-hover
+
   .subsection-title
-    color theme-blue
+    color theme-gold
     font-variant small-caps
 
   .subsection-content
@@ -151,7 +152,7 @@ h2
 
   #subsection-news
     @media (min-width: 1200px)
-      border-top 2px solid theme-blue
+      border-top 2px solid theme-gold
       margin-top 50px
       padding-top 30px
     font-size 13px
@@ -159,15 +160,15 @@ h2
       margin-top 10px
       margin-bottom 15px
     .fa
-      color theme-blue
-  
+      color theme-gold
+
   figure
     img
       padding-bottom 10px
-      width 100%  
+      width 100%
 
     figcaption
-      color theme-blue
+      color theme-gold
       font-style italic
 
 #intro
@@ -175,9 +176,9 @@ h2
 
 .fa
   margin-right 8px
-  
+
 @media (min-width: 1200px)
-  #subsection-about-us, #subsection-people, #project-news-box
+  #subsection-about-us, #subsection-people, #project-news-box, #threeblock
     display inline-block
     vertical-align top
     padding 0 20px
@@ -185,12 +186,24 @@ h2
     width 30%
   #subsection-people
     width 30%
+  #subsection-threeblock
+    display inline-block
+    width 33%
+    padding 0 30px
+    margin auto
+    #subsection-threeblockone, #subsection-threeblocktwo, #subsection-threeblockthree
+        width 100%
+        margin auto
   #project-news-box
     width 40%
     #subsection-projects, #subsection-news
       width 100%
 
+
 @media (max-width: 1199px)
   #subsection-about-us, #subsection-people, #subsection-projects, #subsection-news
     display block
-    width 100%
+    width 90%
+  #subsection-threeblock
+    width 75%
+    margin auto

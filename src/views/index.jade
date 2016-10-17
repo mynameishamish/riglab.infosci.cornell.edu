@@ -29,15 +29,10 @@ html
     script(src='./assets/venobox/venobox.min.js')
 
   body
-    .fullscreen-bg
-      video.fullscreen-bg-video(
-        loop='', muted='', autoplay='', preload='', 
-        poster='./assets/bg_video_fallback.jpg', 
-        src='./assets/bg_video.webm')
 
     .slide#intro
       .header
-        p.title Robots in Groups Lab
+        img(src="./assets/img/title.gif", alt="")
         p.desc The Robots in Groups (RIG) lab explores social and technical issues surrounding the placement of robots within groups and teams.
       .header-stick
         p.title Robots in Groups Lab
@@ -47,7 +42,7 @@ html
           li: a(href='#about'): p Who We Are
           li: a(href='#publications'): p Publications
           li: a(href='#contact'): p Contact
-        
+          
 
     .slide#about
       .card
@@ -102,6 +97,32 @@ html
                     //- a.project-link(href=p.link)
                     //-   span.fa.fa-file
                     //-   span PDF
+                    
+    .slide#about
+      .card
+        .subsection#subsection-threeblock
+          h2.subsection-title How do robots shape the dynamics of work groups and teams in existing settings?
+          .subsection-threeblockone
+            p Robots are already part of groups and teams across a wide array of settings (e.g. robotic surgery, search and rescue, space missions, and manufacturing) but we have little understanding about robots actually shape the dynamics of the groups and teams they are employed in. For example, it is not clear how robots affect core group processes such as conflict, emotion regulation or power dynamics, and how the impact of a robot on these processes shapes short and long-term group outcomes. The question of building additional understanding about how robots affect core team processes and outcomes is even more pressing as several companies have announced autonomous robots that can be used in group settings. To investigate this question we study core group processes such as conflict, emotion regulation and communication and examine how robots impact those processes.
+            p Example Projects
+              ul
+                li Emotion regulation and conflict in teams. (ongoing)
+                li Conflict and emotional interaction dynamics in engineering design teams (completed)
+                li Emotional interaction dynamics and performance of software engineering teams (completed)
+
+              
+        .subsection#subsection-threeblock
+          h2.subsection-title How does a robot’s behavior shape how humans interact with each other in dyads and in larger groups and teams?
+          .subsection-threeblocktwo
+            p This increased use of robots within groups and teams stands in stark contrast with most human-robot interaction (HRI) research that focuses on a single human interacting with a single robot. Past HRI research has contributed fundamental understanding about the psychology of human robot interaction as well as how robots can be designed that interact and collaborate well with people. However little is known about how robots impact the ways in which people interact with each other and even less is known about how robots impact or should impact the way people interact with each other in more complex group settings. To investigate this question we perform behavioral studies that examine how a robot’s behavior shapes human-human interactions in dyads, teams and larger groups.
+              
+        .subsection#subsection-threeblock
+          h2.subsection-title How can robots improve the performance of work groups and teams by acting on social processes?
+          .subsection-threeblockthree
+            p Current approaches for robots to support teamwork rely on approaches to support taskwork processes, that is, those processes that directly move the task forward. Given that the social and emotional functioning of groups and teams has been shown to be crucial for group performance, we see an opportunity for robot to improve group performance by acting on teamwork processes that ensure the social functioning of teams. To investigate the possibilities for robots to improve group performance by acting on social teamwork processes we use iterative design approaches to develop robots that employ social behaviors to improve team performance.
+                   
+          
+        
 
     .slide#publications
       .card
@@ -154,45 +175,44 @@ html
         .pub-overlay
           span.fa.fa-chevron-down
 
-          .slide#contact
-            .card
-              h2.subsection-title Contact
+      .slide#contact
+        .card
+          h2.subsection-title Contact
 
-              .contact-block#contact-block-left
+          .contact-block#contact-block-left
 
-                #contact-mailing-list
-                  #mc_embed_signup
-                    form(action="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=f1cff316c0" method="post" iid="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate)
-                      #mc_embed_signup_scroll
-                      label(for="mce-EMAIL")
-                        span.fa.fa-envelope-o
-                        span Join Our Mailing List
-                      input(type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required)
-                      div(style="position: absolute; left: -5000px;" aria-hidden="true")
-                        input(type="text" name="b_29fc6ecc44ebe11b0169accfe_f1cff316c0" tabindex="-1" value="")
-                      .clear
-                        input(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button")
+            #contact-mailing-list
+              #mc_embed_signup
+                form(action="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=f1cff316c0" method="post" iid="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate)
+                  #mc_embed_signup_scroll
+                  label(for="mce-EMAIL")
+                    span.fa.fa-envelope-o
+                    span Join Our Mailing List
+                  input(type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required)
+                  div(style="position: absolute; left: -5000px;" aria-hidden="true")
+                    input(type="text" name="b_29fc6ecc44ebe11b0169accfe_f1cff316c0" tabindex="-1" value="")
+                  .clear
+                    input(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button")
 
-                #contact-twitter
-                  a(href="https://www.twitter.com/STechCornell")
-                      span.fa.fa-twitter
-                      span Follow Us On Twitter
+            #contact-twitter
+              a(href="https://www.twitter.com/STechCornell")
+                  span.fa.fa-twitter
+                  span Follow Us On Twitter
 
-                //- form
-                //-   input(type="text")
-                //-   input(type="submit")
+            //- form
+            //-   input(type="text")
+            //-   input(type="submit")
 
-              .contact-block#contact-block-middle
-                #contact-location
-                  #map
-                p We're located in Cornell's Information Science department.
-                address 343 Campus Rd<br>Room 202<br>Ithaca, NY, 14853
+          .contact-block#contact-block-middle
+            #contact-location
+              #map
+            p We're located in Cornell's Information Science department.
+            address 343 Campus Rd<br>Room 202<br>Ithaca, NY, 14853
 
-        .contact-block#contact-block-right
-          a(href="https://tech.cornell.edu")
-            figure
-              img(src="./assets/img/logo.png", alt="Cornell Information Science")
-          
-       
-          p #[span Built by] Modified by #[a(href="http://mynameishamish.com") Hanmish Tennent] based on original build by #[a(href="http://hanax.co") Hannah Xue] #[span and Huai-Che Lu. Originally designed by] #[a(href="http://www.emilywsun.com/") Emily Sun.]
-         
+          .contact-block#contact-block-right
+            a(href="https://tech.cornell.edu")
+              figure
+                img(src="./assets/img/logo.png", alt="Cornell Information Science")
+        
+            p(style='font-style: italic; font-size: 13px; padding-top=25px;') #[span Built by] Modified by #[a(href="http://mynameishamish.com") Hamish Tennent] based on original build by #[a(href="http://hanax.co") Hannah Xue] #[span and Huai-Che Lu. Originally designed by] #[a(href="http://www.emilywsun.com/") Emily Sun.]
+      
