@@ -4,7 +4,7 @@
   .person
     display inline-block
     width 25%
-    margin-bottom 20px
+    margin-bottom 40px
     vertical-align top
 
     *
@@ -14,9 +14,10 @@
     img
       width 100px
       height 100px
+      filter grayscale(100%)      
       // border-radius 100%
       border 2px solid theme-gold
-      filter grayscale(100%)
+
 
       @media (max-width: 479px)
         width 80%
@@ -30,8 +31,8 @@
 
     .person-name, .person-title
       // color theme-gold
-      font-size 0.8em
+      font-size 0.9em
       line-height 1.5em
     .person-email, .person-twitter
-      font-size 0.7em
+      font-size 0.9em
       color black

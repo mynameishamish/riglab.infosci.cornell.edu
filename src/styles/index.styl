@@ -15,15 +15,21 @@ body
   background-color #fff
   width 100vw
   line-height 130%
+  font-family 'National'
+  font-weight 100
 
 p
   font-size 16px
   color rgb(60,60,60)
   background-color #fff
   line-height 130%
+  font-family 'National'
+  font-weight 100
 
 a
   text-decoration none
+  font-family 'National'
+  font-weight 100
   outline 0
   color rgb(255,255,255)
   transition all .3s
@@ -35,9 +41,13 @@ a
 ul
   padding 0
   list-style-type none
+  font-family 'National'
+  font-weight 100
 
 h2
   margin 0
+  font-family 'National'
+  font-weight 100
 
 .fullscreen-bg
   position fixed
@@ -80,6 +90,14 @@ h2
     text-align center
     top 50%
     left 50%
+    @media screen and (max-width: 900px)
+      width 90%
+    width 60%
+    transform translate(-50%, -50%)
+    color #fff
+
+  #sketchslide
+    position absolute
     @media screen and (max-width: 900px)
       width 90%
     width 60%
@@ -198,6 +216,10 @@ h2
   padding 0 200px
   line-height 1.5
   color theme-gold
+  figure
+    img
+      padding-bottom 10px
+      width 100%
 
 
 @media (min-width: 1200px)
