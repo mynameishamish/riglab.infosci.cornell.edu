@@ -1,5 +1,6 @@
 @import 'nib';
 @import './font-awesome.css';
+@import './fonts.css';
 @import './people.styl';
 @import './projects.styl';
 @import './publications.styl';
@@ -10,10 +11,10 @@
 
 body
   font-size 16px
-  font-family 'Lato', sans-serif
   color rgb(60,60,60)
   background-color #fff
   width 100vw
+  line-height 130%
 
 a
   text-decoration none
@@ -81,10 +82,13 @@ h2
 
     .desc
       font-size 22px
-      font-weight 400
+      font-weight 200
       width 90%
       margin auto
       color rgba(0,0,0,.8)
+
+
+
   .header-stick
     display block
     position fixed
@@ -177,6 +181,12 @@ h2
 .fa
   margin-right 8px
 
+#project-examples
+  list-style-type circle
+  list-style-position inside
+  font-size 80%
+
+
 @media (min-width: 1200px)
   #subsection-about-us, #subsection-people, #project-news-box, #threeblock
     display inline-block
@@ -185,15 +195,17 @@ h2
   #subsection-about-us
     width 30%
   #subsection-people
-    width 30%
+    width 70%
   #subsection-threeblock
     display inline-block
     width 33%
     padding 0 30px
     margin auto
+    vertical-align top
     #subsection-threeblockone, #subsection-threeblocktwo, #subsection-threeblockthree
         width 100%
         margin auto
+        vertical-align top
   #project-news-box
     width 40%
     #subsection-projects, #subsection-news
