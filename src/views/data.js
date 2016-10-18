@@ -114,7 +114,7 @@ var people = [
   {
     name: 'Pehuén Moure',
     title: 'Research Assistant',
-    image: '/assets/img/people/peuhen.jpg',
+    image: '/assets/img/people/pehuen.jpg',
     email: 'ppm44@cornell.edu'
   },
 ];
