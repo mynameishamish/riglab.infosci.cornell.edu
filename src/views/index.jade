@@ -43,6 +43,43 @@ html
           li: a(href='#publications'): p Publications
           li: a(href='#contact'): p Contact
           
+          
+          
+          
+    .slide#about
+      .card
+        .subsection#subsection-threeblock
+          h2.subsection-title How do robots shape the dynamics of work groups and teams in existing settings?
+            .subsection-threeblockone
+              p Robots are already part of groups and teams across a wide array of settings (e.g. robotic surgery, search and rescue, space missions, and manufacturing) but we have little understanding about robots actually shape the dynamics of the groups and teams they are employed in. For example, it is not clear how robots affect core group processes such as conflict, emotion regulation or power dynamics, and how the impact of a robot on these processes shapes short and long-term group outcomes. The question of building additional understanding about how robots affect core team processes and outcomes is even more pressing as several companies have announced autonomous robots that can be used in group settings. To investigate this question we study core group processes such as conflict, emotion regulation and communication and examine how robots impact those processes.
+              p Example Projects
+                ul#project-examples
+                  li.Emotion regulation and conflict in teams. (ongoing)
+                  li.Conflict and emotional interaction dynamics in engineering design teams (completed)
+                  li.Emotional interaction dynamics and performance of software engineering teams (completed)
+
+            
+        .subsection#subsection-threeblock
+          h2.subsection-title How does a robot’s behavior shape how humans interact with each other in dyads and in larger groups and teams?
+            .subsection-threeblocktwo
+              p This increased use of robots within groups and teams stands in stark contrast with most human-robot interaction (HRI) research that focuses on a single human interacting with a single robot. Past HRI research has contributed fundamental understanding about the psychology of human robot interaction as well as how robots can be designed that interact and collaborate well with people. However little is known about how robots impact the ways in which people interact with each other and even less is known about how robots impact or should impact the way people interact with each other in more complex group settings. To investigate this question we perform behavioral studies that examine how a robot’s behavior shapes human-human interactions in dyads, teams and larger groups.
+              p Example Projects  
+                ul#project-examples
+                  li.Robot assisted early development of conflict management skills (ongoing)
+                  li.Shaping conflict dynamics in teams through a robot (completed)
+                  li.Increasing psychological safety in language learning groups through a robot (ongoing)
+                
+            
+        .subsection#subsection-threeblock
+          h2.subsection-title How can robots improve the performance of work groups and teams by acting on social processes?
+            .subsection-threeblockthree
+              p Current approaches for robots to support teamwork rely on approaches to support taskwork processes, that is, those processes that directly move the task forward. Given that the social and emotional functioning of groups and teams has been shown to be crucial for group performance, we see an opportunity for robot to improve group performance by acting on teamwork processes that ensure the social functioning of teams. To investigate the possibilities for robots to improve group performance by acting on social teamwork processes we use iterative design approaches to develop robots that employ social behaviors to improve team performance.
+              p Example Projects  
+                ul#project-examples
+                  li.Increasing robot assisted team performance through back-channeling (completed)
+                  li.Increasing group performance by a robot’s impact on speaker dynamics (ongoing)
+
+            
 
     .slide#about
       .card
@@ -84,54 +121,8 @@ html
                   if p.twitter
                     a.person-twitter(href='https://twitter.com/#{p.twitter}') @#{p.twitter}
         
-        #project-news-box    
-          .subsection#subsection-projects
-            h2.subsection-title Projects
-            .subsection-content
-              ul#project-list: each p in projects
-                li.project
-                  .project-img-box(style='background-image: url(#{p.image})')
-                  .project-info
-                    h3.project-title= p.title
-                    p.project-description!= p.desc
-                    //- a.project-link(href=p.link)
-                    //-   span.fa.fa-file
-                    //-   span PDF
-                    
-    .slide#about
-      .card
-        .subsection#subsection-threeblock
-          h2.subsection-title How do robots shape the dynamics of work groups and teams in existing settings?
-          .subsection-threeblockone
-            p Robots are already part of groups and teams across a wide array of settings (e.g. robotic surgery, search and rescue, space missions, and manufacturing) but we have little understanding about robots actually shape the dynamics of the groups and teams they are employed in. For example, it is not clear how robots affect core group processes such as conflict, emotion regulation or power dynamics, and how the impact of a robot on these processes shapes short and long-term group outcomes. The question of building additional understanding about how robots affect core team processes and outcomes is even more pressing as several companies have announced autonomous robots that can be used in group settings. To investigate this question we study core group processes such as conflict, emotion regulation and communication and examine how robots impact those processes.
-            p Example Projects
-              ul#project-examples
-                li.Emotion regulation and conflict in teams. (ongoing)
-                li.Conflict and emotional interaction dynamics in engineering design teams (completed)
-                li.Emotional interaction dynamics and performance of software engineering teams (completed)
 
-              
-        .subsection#subsection-threeblock
-          h2.subsection-title How does a robot’s behavior shape how humans interact with each other in dyads and in larger groups and teams?
-          .subsection-threeblocktwo
-            p This increased use of robots within groups and teams stands in stark contrast with most human-robot interaction (HRI) research that focuses on a single human interacting with a single robot. Past HRI research has contributed fundamental understanding about the psychology of human robot interaction as well as how robots can be designed that interact and collaborate well with people. However little is known about how robots impact the ways in which people interact with each other and even less is known about how robots impact or should impact the way people interact with each other in more complex group settings. To investigate this question we perform behavioral studies that examine how a robot’s behavior shapes human-human interactions in dyads, teams and larger groups.
-            p Example Projects  
-              ul#project-examples
-                li.Robot assisted early development of conflict management skills (ongoing)
-                li.Shaping conflict dynamics in teams through a robot (completed)
-                li.Increasing psychological safety in language learning groups through a robot (ongoing)
-              
-              
-        .subsection#subsection-threeblock
-          h2.subsection-title How can robots improve the performance of work groups and teams by acting on social processes?
-          .subsection-threeblockthree
-            p Current approaches for robots to support teamwork rely on approaches to support taskwork processes, that is, those processes that directly move the task forward. Given that the social and emotional functioning of groups and teams has been shown to be crucial for group performance, we see an opportunity for robot to improve group performance by acting on teamwork processes that ensure the social functioning of teams. To investigate the possibilities for robots to improve group performance by acting on social teamwork processes we use iterative design approaches to develop robots that employ social behaviors to improve team performance.
-            p Example Projects  
-              ul#project-examples
-                li.Increasing robot assisted team performance through back-channeling (completed)
-                li.Increasing group performance by a robot’s impact on speaker dynamics (ongoing)
-
-              
+  
         
 
     .slide#publications

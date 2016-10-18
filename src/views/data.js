@@ -8,8 +8,8 @@ var publications = [
     author: 'Malte Jung',
     conference: 'TOCHI 2016',
     type: 'Full Paper',
-    image: '/assets/img/publication/3dgame.png',
-    links: [['PDF', '/assets/papers/3dgame.pdf']],
+    image: '/assets/img/publication/thin-slices.png',
+    links: [['PDF', '/assets/papers/thin-slices.pdf']],
     abstract: 'Do teams show stable conflict interaction patterns that predict their performance hours, weeks, or even months in advance? Two studies demonstrate that two of the same patterns of emotional interaction dynamics that distinguish functional from dysfunctional marriages also distinguish high from low-performance design teams.'
   },
  {
@@ -18,8 +18,8 @@ var publications = [
     author: 'Gabriel Culbertson, Shiyu Wang, Malte Jung, Erik Andersen',
     conference: 'CHI 2016',
     type: 'Full Paper',
-    image: '/assets/img/publication/thin-slices.png',
-    links: [['PDF', '/assets/papers/thin-slices.pdf']],
+    image: '/assets/img/publication/3dgame.png',
+    links: [['PDF', '/assets/papers/3dgame.pdf']],
     abstract: 'Learning a second language is challenging. Becoming fluent requires learning contextual information about how language should be used as well as word meanings and grammar. The majority of existing language learning applications provide only thin context around content.'
   },
  {
@@ -85,8 +85,38 @@ var people = [
     image: '/assets/img/people/hamish.jpg',
     email: 'ht353@cornell.edu'
   },
-
-
+  {
+    name: 'Dana Daniels',
+    title: 'Research Assistant',
+    image: '/assets/img/people/dana.jpg',
+    email: 'dbd62@cornell.edu'
+  },
+  {
+    name: 'Mauricio Moreyra ',
+    title: 'Research Assistant',
+    image: '/assets/img/people/mauricio.jpg',
+    email: 'mrm343@cornell.edu'
+  },
+  {
+    name: 'Trinh Le',
+    title: 'Research Assistant',
+    link: 'https://tnl25.github.io',
+    image: '/assets/img/people/trinh.jpg',
+    email: 'tnl25@cornell.edu'
+  },
+  {
+    name: 'Dou Mao',
+    title: 'Research Assistant',
+    link: 'http://itsdou.com/',
+    image: '/assets/img/people/dou.jpg',
+    email: 'dm577@cornell.edu'
+  },
+  {
+    name: 'Pehuén Moure',
+    title: 'Research Assistant',
+    image: '/assets/img/people/peuhen.jpg',
+    email: 'ppm44@cornell.edu'
+  },
 ];
 
 
@@ -94,7 +124,7 @@ var projectareas = [
   {
     name: 'Title',
     text: 'Assistant Professor',
-    
+
   },
 
 
