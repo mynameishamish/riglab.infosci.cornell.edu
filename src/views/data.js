@@ -32,6 +32,36 @@ var publications = [
     links: [['PDF', '/assets/papers/crystallize.pdf']],
     abstract: 'Learning a second language is challenging. Becoming fluent requires learning contextual information about how language should be used as well as word meanings and grammar. The majority of existing language learning applications provide only thin context around content.'
   },
+  {
+   mobileInfo: 'Gabriel Culbertson: Crystallize: Simulating Language Immersion through Gameplay',
+     title: 'Crystallize: Simulating Language Immersion through Gameplay',
+     author: 'Gabriel Culbertson',
+     conference: 'CHI Extended Abstracts 2015',
+     type: 'Extended Abstract',
+     image: '/assets/img/publication/crystallize-2.png',
+     links: [['PDF', '/assets/papers/crystallize-2.pdf']],
+     abstract: 'Crystallize takes a first step towards this goal by providing a structured immersive experience. Instead of memorizing vocabulary words and grammar, the player solves linguistic puzzles, interacts with the environment, and infers word meanings from context.'
+   },
+   {
+    mobileInfo: 'Malte F Jung, David Sirkin, Turgut M Gür, Martin Steinert: Displayed Uncertainty Improves Driving Experience and Behavior',
+      title: 'Displayed Uncertainty Improves Driving Experience and Behavior: The Case of Range Anxiety in an Electric Car',
+      author: 'Malte F Jung, David Sirkin, Turgut M Gür, Martin Steinert',
+      conference: 'CHI 2015',
+      type: 'Full Paper',
+      image: '/assets/img/publication/range.png',
+      links: [['PDF', '/assets/papers/range.pdf']],
+      abstract: 'We explore the impact of the displayed precision of instrumentation estimates of range and state-of-charge on drivers attitudes towards an all-electric vehicle (EV), on their driving experience, and driving behavior under varying conditions of resource availability.'
+    },
+    {
+     mobileInfo: 'Malte F Jung, Nikolas Martelaro, Pamela J Hinds: Using Robots to Moderate Team Conflict: The Case of Repairing Violations',
+       title: 'Using Robots to Moderate Team Conflict: The Case of Repairing Violations',
+       author: 'Malte F Jung, Nikolas Martelaro, Pamela J Hinds',
+       conference: 'HRI 2015',
+       type: 'Full Paper',
+       image: '/assets/img/publication/conflict.png',
+       links: [['PDF', '/assets/papers/conflict.pdf']],
+       abstract: 'We explore whether robots can positively influence conflict dynamics by repairing interpersonal violations that occur during a team-based problem-solving task. Contrary to our expectations, we found that the robot’s repair interventions increased the groups’ awareness of conflict after the occurrence of a personal attack thereby acting against the groups’ tendency to suppress the conflict.'
+     },
 
 ];
 

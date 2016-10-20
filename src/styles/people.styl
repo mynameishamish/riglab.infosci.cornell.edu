@@ -1,23 +1,24 @@
 @import './colors.styl';
 
 #people-list
+
+
   .person
     display inline-block
-    width 25%
+    width 100%
     margin-bottom 40px
     vertical-align top
 
     *
       display block
-      margin 0 auto
+      // margin 0
 
     img
       width 100px
       height 100px
-      filter grayscale(100%)      
       // border-radius 100%
       border 2px solid theme-gold
-
+      filter grayscale(100%)
 
       @media (max-width: 479px)
         width 80%
@@ -26,13 +27,28 @@
     .person-info
       margin 1em 0 0.3em 0
 
-    .person-name, .person-title, .person-email, .person-twitter
-      text-align center
+
 
     .person-name, .person-title
-      // color theme-gold
-      font-size 0.9em
+      // color theme-blue
+      font-size 0.8em
       line-height 1.5em
     .person-email, .person-twitter
-      font-size 0.9em
+      font-size 0.7em
       color black
+
+
+@media (max-width: 899px)
+  #people-list
+    .person
+      width 50%
+      text-align center
+  *
+    margin 0 auto
+
+
+@media (min-width: 900px)
+  #people-list
+    .person
+      width 25%
+      text-align left

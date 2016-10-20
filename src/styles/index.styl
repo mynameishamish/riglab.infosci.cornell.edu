@@ -8,6 +8,7 @@
 
 *
   box-sizing border-box
+  text-transform none
 
 body
   font-size 16px
@@ -28,7 +29,7 @@ p
 
 a
   text-decoration none
-  font-family 'National'
+  font-family 'National-Regular-Italic'
   font-weight 100
   outline 0
   color rgb(255,255,255)
@@ -44,10 +45,13 @@ ul
   font-family 'National'
   font-weight 100
 
+
 h2
   margin 0
-  font-family 'National'
+  font-family 'National-Thin'
   font-weight 100
+
+
 
 .fullscreen-bg
   position fixed
@@ -92,9 +96,13 @@ h2
     left 50%
     @media screen and (max-width: 900px)
       width 90%
-    width 60%
+
+    width 100%
     transform translate(-50%, -50%)
     color #fff
+    img
+      padding-bottom 10px
+      width 40%
 
   #sketchslide
     position absolute
@@ -207,19 +215,26 @@ h2
 
 #project-examples
   list-style-type circle
-  list-style-position inside
-  font-size 80%
+  list-style-position outside
+  font-size 75%
 
 #subsection-titleblock
   margin-bottom 100px
   text-align center
-  padding 0 200px
+  // padding 0 200px
   line-height 1.5
   color theme-gold
   figure
     img
       padding-bottom 10px
-      width 100%
+      width 90%
+
+#subsection-titleblocktext
+  padding 0 150px
+
+#subsection-about-us
+  img
+    filter grayscale(100%)
 
 
 @media (min-width: 1200px)
@@ -250,10 +265,62 @@ h2
       width 100%
 
 
-@media (max-width: 1199px)
-  #subsection-about-us, #subsection-people, #subsection-projects, #subsection-news
+@media (min-width: 900px) and (max-width: 1199px)
+  #subsection-about-us, #subsection-people, #subsection-projects, #subsection-news, #publications, #subsection-threeblock
     display block
-    width 90%
-  #subsection-threeblock
-    width 75%
     margin auto
+    width 75%
+    font-size 75%
+    padding 20px 0
+  #subsection-threeblock
+    p, ul, li
+      font-size 75%
+    padding-top 25px
+  #subsection-titleblock
+    figure
+      img
+        padding-bottom 10px
+        width 75%
+
+
+
+
+@media (max-width: 899px)
+  .slide .card .header
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsla(0,0%,100%,.95);
+    padding: 0px;
+    overflow: hidden;
+    margin-bottom: 1pc;
+
+  #intro
+      img
+        padding-bottom 10px
+        width 70%
+
+  #subsection-title
+    font-size 200%
+
+  #subsection-titleblocktext
+    padding 0px
+
+  #subsection-titleblock
+    margin-bottom: 0pt;
+
+  #subsection-people
+    font-size 50%
+    font-family 'National'
+
+  #subsection-about-us, #subsection-people, #subsection-projects, #subsection-news, #publications, #subsection-threeblock
+    display block
+    margin auto
+    width 100%
+    font-size 90%
+    padding 0
+  #subsection-threeblock
+    h2
+      font-size 150%
+      text-align: center
+    padding-top 50px
