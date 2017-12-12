@@ -235,7 +235,7 @@ var news = [
 		date: '12/2017'
 	},
   {
-		title: '3 Of the labs papers got accepted into HRI 2018! See you in Chicago',
+		title: '3 of our papers got accepted into HRI 2018! See you in Chicago',
 		date: '10/2017'
 	},
   {
