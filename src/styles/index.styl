@@ -11,25 +11,30 @@
   text-transform none
 
 body
-  font-size 16px
+  font-size 13px
   color rgb(60,60,60)
   background-color #fff
   width 100vw
   line-height 130%
-  font-family 'National'
+  font-family 'Roboto', sans-serif
   font-weight 100
 
 p
-  font-size 16px
+  font-size 13px
   color rgb(60,60,60)
   background-color #fff
   line-height 130%
-  font-family 'National'
+  font-family 'Roboto', sans-serif
+  font-weight 100
+
+figcaption
+  line-height 130%
+  font-family 'Roboto', sans-serif
   font-weight 100
 
 a
   text-decoration none
-  font-family 'National-Regular-Italic'
+  font-family 'Roboto', sans-serif
   font-weight 100
   outline 0
   color rgb(255,255,255)
@@ -42,7 +47,7 @@ a
 ul
   padding 0
   list-style-type none
-  font-family 'National'
+  font-family ''
   font-weight 100
 
 
@@ -82,7 +87,7 @@ h2
 
 .slide
   width 100%
-  margin-bottom 80px
+  margin-bottom 10px
   .title
     font-variant small-caps
     font-size 60px
@@ -219,7 +224,7 @@ h2
   font-size 75%
 
 #subsection-titleblock
-  margin-bottom 100px
+  margin-bottom 50px
   text-align center
   // padding 0 200px
   line-height 1.5
@@ -235,6 +240,8 @@ h2
 #subsection-about-us
   img
     filter grayscale(100%)
+
+
 
 
 @media (min-width: 1200px)
@@ -258,7 +265,7 @@ h2
         margin auto
         vertical-align top
         font-variant normal
-        font-size 70%
+        font-size 100%
   #project-news-box
     width 40%
     #subsection-projects, #subsection-news
@@ -270,17 +277,28 @@ h2
     display block
     margin auto
     width 75%
-    font-size 75%
+    font-size 100%
     padding 20px 0
+    text-transform none
   #subsection-threeblock
     p, ul, li
-      font-size 75%
+      font-size 100%
+      text-transform none
     padding-top 25px
+
+
   #subsection-titleblock
     figure
       img
         padding-bottom 10px
         width 75%
+  #subsection-news
+    margin-left 0px
+    margin left
+  .slide
+    margin-bottom 0px
+  #about
+    margin-bottom 0px
 
 
 
@@ -310,8 +328,8 @@ h2
     margin-bottom: 0pt;
 
   #subsection-people
-    font-size 50%
-    font-family 'National'
+    font-size 75%
+    font-family 'National-Light'
 
   #subsection-about-us, #subsection-people, #subsection-projects, #subsection-news, #publications, #subsection-threeblock
     display block
@@ -319,6 +337,7 @@ h2
     width 100%
     font-size 90%
     padding 0
+    text-transform none
   #subsection-threeblock
     h2
       font-size 150%

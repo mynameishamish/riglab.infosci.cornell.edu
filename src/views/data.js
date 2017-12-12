@@ -1,8 +1,37 @@
 var marked = require('marked');
 
 var publications = [
+  {
+  	mobileInfo: 'Malte Jung: Affective Grounding in Human-Robot Interaction',
+     title: 'Affective Grounding in Human-Robot Interaction',
+     author: 'Malte Jung',
+     conference: 'HRI 2017',
+     type: 'Full Paper',
+     image: '/assets/img/publication/affective.png',
+     links: [['PDF', '/assets/papers/affective.pdf']],
+     abstract: 'The paper contributes a review and critique of current perspectives on emotion in HRI. Further it outlines how research on emotion in HRI can benefit from taking an affective grounding perspective and outlines implications for the design of robots capable of participating in the coordination on affect in interaction.'
+   },
+  {
+  	mobileInfo: 'Solace Shence: A Benefit of Thinking Like a Robot',
+     title: 'A Benefit of Thinking Like a Robot',
+     author: 'Solace Shen, Malte Jung',
+     conference: 'HRI 2017',
+     type: 'Note',
+     image: '/assets/img/publication/think.png',
+     links: [['PDF', '/assets/papers/think.pdf']],
+     abstract: 'Picture a scenario in the not too distant future where home assistant robots provide social support such as engaging people in conflict reappraisal practices in the event of emotional conflicts. What should the robot say and/or do to effectively help people regulate emotions and navigate interpersonal conflicts?'
+   },
+  {
+  	mobileInfo: 'Robots in Groups and Teams Workshop @ CSCW 2017',
+     title: 'Robots in Groups and Teams Workshop',
+     author: 'Malte Jung, Friederike Eyssel, Selma Šabanović, Marlena Fraune',
+     conference: 'CSCW 2017',
+     type: 'Workshop',
+     image: '/assets/img/publication/cscwworkshop.png',
+     links: [['PDF', '/assets/papers/cscwworkshop.pdf']],
+     abstract: 'The goal for the workshop is therefore to advance research in computer supported cooperative work (CSCW) and human robot interaction (HRI) by raising awareness for the social and technical challenges that surround the placement of robots within work-groups and teams.'
+   },
  {
-
  	mobileInfo: 'Malte Jung: Coupling Interactions and Performance: Predicting Team Performance from Thin Slices of Conflict',
     title: 'Coupling Interactions and Performance: Predicting Team Performance from Thin Slices of Conflict',
     author: 'Malte Jung',
@@ -42,27 +71,6 @@ var publications = [
      links: [['PDF', '/assets/papers/crystallize-2.pdf']],
      abstract: 'Crystallize takes a first step towards this goal by providing a structured immersive experience. Instead of memorizing vocabulary words and grammar, the player solves linguistic puzzles, interacts with the environment, and infers word meanings from context.'
    },
-   {
-    mobileInfo: 'Malte F Jung, David Sirkin, Turgut M Gür, Martin Steinert: Displayed Uncertainty Improves Driving Experience and Behavior',
-      title: 'Displayed Uncertainty Improves Driving Experience and Behavior: The Case of Range Anxiety in an Electric Car',
-      author: 'Malte F Jung, David Sirkin, Turgut M Gür, Martin Steinert',
-      conference: 'CHI 2015',
-      type: 'Full Paper',
-      image: '/assets/img/publication/range.png',
-      links: [['PDF', '/assets/papers/range.pdf']],
-      abstract: 'We explore the impact of the displayed precision of instrumentation estimates of range and state-of-charge on drivers attitudes towards an all-electric vehicle (EV), on their driving experience, and driving behavior under varying conditions of resource availability.'
-    },
-    {
-     mobileInfo: 'Malte F Jung, Nikolas Martelaro, Pamela J Hinds: Using Robots to Moderate Team Conflict: The Case of Repairing Violations',
-       title: 'Using Robots to Moderate Team Conflict: The Case of Repairing Violations',
-       author: 'Malte F Jung, Nikolas Martelaro, Pamela J Hinds',
-       conference: 'HRI 2015',
-       type: 'Full Paper',
-       image: '/assets/img/publication/conflict.png',
-       links: [['PDF', '/assets/papers/conflict.pdf']],
-       abstract: 'We explore whether robots can positively influence conflict dynamics by repairing interpersonal violations that occur during a team-based problem-solving task. Contrary to our expectations, we found that the robot’s repair interventions increased the groups’ awareness of conflict after the occurrence of a personal attack thereby acting against the groups’ tendency to suppress the conflict.'
-     },
-
 ];
 
 
@@ -109,43 +117,70 @@ var people = [
     email: 'grc74@cornell.edu'
   },
   {
+    name: 'Amy Cheatle',
+    title: 'PhD Student',
+    link: 'http://infosci.cornell.edu/forward-thinking-people/phds/amy-cheatle',
+    image: '/assets/img/people/amy.jpg',
+    email: 'ac2288@cornell.edu'
+  },
+  {
+    name: 'Houston Claure',
+    title: 'PhD Student',
+    image: '/assets/img/people/houston.png',
+    email: 'hbclaure@gmail.com'
+  },
+  {
+    name: 'Austin Lawrence',
+    title: 'Robotics Researcher',
+    link: 'http://ablarry91.github.io/portfolio/',
+    image: '/assets/img/people/austin.jpg',
+    email: 'abl97@cornell.edu',
+  },
+  {
     name: 'Hamish Tennent',
-    title: 'Researcher',
+    title: 'Visiting Scientist',
     link: 'http://infosci.cornell.edu/forward-thinking-people/research-staff/hamish-tennent',
     image: '/assets/img/people/hamish.jpg',
     email: 'ht353@cornell.edu'
   },
   {
-    name: 'Dana Daniels',
-    title: 'Research Assistant',
-    image: '/assets/img/people/dana.jpg',
-    email: 'dbd62@cornell.edu'
-  },
-  {
-    name: 'Mauricio Moreyra ',
-    title: 'Research Assistant',
-    image: '/assets/img/people/mauricio.jpg',
-    email: 'mrm343@cornell.edu'
-  },
-  {
     name: 'Trinh Le',
-    title: 'Research Assistant',
+    title: 'Graduate Researcher',
     link: 'https://tnl25.github.io',
     image: '/assets/img/people/trinh.jpg',
     email: 'tnl25@cornell.edu'
   },
   {
+    name: 'Dana Daniels',
+    title: 'Undergraduate Researcher',
+    image: '/assets/img/people/dana.jpg',
+    email: 'dbd62@cornell.edu'
+  },
+  {
+    name: 'Mauricio Moreyra ',
+    title: 'Undergraduate Researcher',
+    image: '/assets/img/people/mauricio.jpg',
+    email: 'mrm343@cornell.edu'
+  },
+  {
     name: 'Dou Mao',
-    title: 'Research Assistant',
+    title: 'Undergraduate Researcher',
     link: 'http://itsdou.com/',
     image: '/assets/img/people/dou.jpg',
     email: 'dm577@cornell.edu'
   },
   {
     name: 'Pehuén Moure',
-    title: 'Research Assistant',
+    title: 'Undergraduate Researcher',
     image: '/assets/img/people/pehuen.jpg',
     email: 'ppm44@cornell.edu'
+  },
+  {
+    name: 'Justina Chen',
+    title: 'Undergraduate Researcher',
+    link: 'http://www.justinachen.me',
+    image: '/assets/img/people/justina.jpg',
+    email: 'jjc382@cornell.edu',
   },
 ];
 
@@ -163,6 +198,14 @@ var projectareas = [
 
 
 var news = [
+  {
+		title: 'Be sure to sign up for Maltes Robots in Groups and Teams Workshop for CSCW 2017',
+		date: '1/2017'
+	},
+  {
+		title: 'Solace and Maltes papers were accepted to HRI 2017! PDFs are available below',
+		date: '12/2016'
+	},
 	{
 		title: 'We have a new website! Look how shiny it is!',
 		date: '9/2016'

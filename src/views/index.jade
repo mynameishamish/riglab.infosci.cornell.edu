@@ -12,12 +12,14 @@ html
     meta(property="og:url" content="http://riglab.infosci.cornell.edu")
     meta(property="og:type" content="website")
     meta(property="og:site_name" content="Robots in Groups Lab - Cornell")
-    meta(property="og:title" content="Robots in Groups Lab - Cornell Tech")
+    meta(property="og:title" content="Robots in Groups Lab - Cornell University")
     meta(property="og:description" content="The Robots in Groups (RIG) lab explores social and technical issues surrounding the placement of robots within groups and teams.")
     meta(property="og:image" content=".assets/img/gates.png")
     meta(property="og:locale" content="en_US")
 
     link(rel='stylesheet' href='//fonts.googleapis.com/css?family=Lato:700,400,300,400i')
+    link(rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto:700,400,300,400i')
+    
 
     link(rel='apple-touch-icon shortcut icon image_src' href='./assets/favicon.ico')
 
@@ -49,22 +51,22 @@ html
               
         .subsection#subsection-threeblock
           h2.subsection-title How do robots shape the dynamics of work groups and teams in existing settings?
-              .subsection#subsection-threeblockone
-                p It is not clear how robots affect core group processes such as conflict, emotion regulation or power dynamics, and how the impact of a robot on these processes shapes short and long-term group outcomes. One of our key research questions is to better understand how robots affect these processes and outcomes, which is increasingly pressing as several companies have announced autonomous robots for group settings. 
+          .subsection#subsection-threeblockone
+            p It is not clear how robots affect core group processes such as conflict, emotion regulation or power dynamics, and how the impact of a robot on these processes shapes short and long-term group outcomes. One of our key research questions is to better understand how robots affect these processes and outcomes, which is increasingly pressing as several companies have announced autonomous robots for group settings. 
 
 
             
         .subsection#subsection-threeblock
           h2.subsection-title How does a robot’s behavior shape how humans interact with each other in dyads and in larger groups and teams?
-            .subsection#subsection-threeblocktwo
-              p Little is known about how robots impact the ways in which people interact with each other and even less is known about how robots impact or should impact the way people interact with each other in more complex group settings. To investigate this question we perform behavioral studies that examine how a robot’s behavior shapes human-human interactions in dyads, teams and larger groups.
+          .subsection#subsection-threeblocktwo
+            p Little is known about how robots impact the ways in which people interact with each other and even less is known about how robots impact or should impact the way people interact with each other in more complex group settings. To investigate this question we perform behavioral studies that examine how a robot’s behavior shapes human-human interactions in dyads, teams and larger groups.
 
                 
             
         .subsection#subsection-threeblock
           h2.subsection-title How can robots improve the performance of work groups and teams by acting on social processes?
-            .subsection#subsection-threeblockthree
-              p Given that the social and emotional functioning of groups and teams has been shown to be crucial for group performance, we see an opportunity for robot to improve group performance by acting on teamwork processes that ensure the social functioning of teams. We use iterative design approaches to develop robots that employ social behaviors to improve team performance.
+          .subsection#subsection-threeblockthree
+            p Given that the social and emotional functioning of groups and teams has been shown to be crucial for group performance, we see an opportunity for robot to improve group performance by acting on teamwork processes that ensure the social functioning of teams. We use iterative design approaches to develop robots that employ social behaviors to improve team performance.
 
 
             
@@ -99,7 +101,8 @@ html
           .subsection-content
             ul#people-list: each p in people
               li.person
-                img(src='#{p.image}')
+                a(href=p.link, target='_blank')
+                  img(src='#{p.image}', href=p.link, target='_blank')
                 .person-info
                   a(href=p.link, target='_blank')
                     h3.person-name= p.name

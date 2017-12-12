@@ -97,7 +97,7 @@ $(() => {
     var marker = new google.maps.Marker({
       position: cornellTechLatLng,
       map: map,
-      title: 'Cornell Tech'
+      title: 'Cornell'
     });
   }
 
