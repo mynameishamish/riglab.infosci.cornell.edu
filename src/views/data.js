@@ -1,16 +1,6 @@
 var marked = require('marked');
 
 var publications = [
-  {
-  	mobileInfo: '',
-     title: '',
-     author: 'Malte Jung',
-     conference: 'CHI 2017',
-     type: 'Panel',
-     image: '/assets/img/publication/.png',
-     links: [['PDF', '/assets/papers/chipanel.pdf']],
-     abstract: ''
-   },
     {
     	mobileInfo: 'Hamish Tennent: Good Vibrations, How Consequential Sounds Affect Perception of Robotic Arms',
        title: 'How Consequential Sounds Affect Perception of Robotic Arms',
@@ -170,6 +160,13 @@ var people = [
     email: 'solace.shen@cornell.edu'
   },
   {
+    name: 'Dominic DiFranzo',
+    title: 'Post Doctoral Researcher',
+    link: 'http://difranzo.com/',
+    image: '/assets/img/people/dom.png',
+    email: 'djd274@cornell.edu'
+  },
+  {
     name: 'Gabriel Culbertson',
     title: 'PhD Student',
     link: 'http://infosci.cornell.edu/forward-thinking-people/gabriel-culbertson',
@@ -182,6 +179,13 @@ var people = [
     link: 'http://infosci.cornell.edu/forward-thinking-people/phds/amy-cheatle',
     image: '/assets/img/people/amy.jpg',
     email: 'ac2288@cornell.edu'
+  },
+  {
+    name: 'Brett Stoll',
+    title: 'PhD Student',
+    link: 'https://communication.cals.cornell.edu/people/brett-stoll',
+    image: '/assets/img/people/brett.jpg',
+    email: 'bas364@cornell.edu'
   },
   {
     name: 'Houston Claure',
@@ -206,7 +210,7 @@ var people = [
   {
     name: 'Hamish Tennent',
     title: 'Visiting Scientist',
-    link: 'http://infosci.cornell.edu/forward-thinking-people/research-staff/hamish-tennent',
+    link: 'https://mynameishamish.website/',
     image: '/assets/img/people/hamish.jpg',
     email: 'ht353@cornell.edu'
   },
