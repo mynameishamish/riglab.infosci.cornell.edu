@@ -130,11 +130,18 @@ var people = [
     email: 'hbclaure@gmail.com'
   },
   {
-    name: 'Austin Lawrence',
-    title: 'Robotics Researcher',
-    link: 'http://ablarry91.github.io/portfolio/',
-    image: '/assets/img/people/austin.jpg',
-    email: 'abl97@cornell.edu',
+    name: 'Jess Hohenstein',
+    title: 'PhD Student',
+    link: 'https://hohenstein.infosci.cornell.edu/',
+    image: '/assets/img/people/jess.jpg',
+    email: 'jch378@cornell.edu'
+  },
+  {
+    name: 'Yoyo (Tsung-Yu) Hou',
+    title: 'PhD Student',
+    link: 'http://yoyohou.tw/',
+    image: '/assets/img/people/yoyo.jpg',
+    email: 'th588@cornell.edu'
   },
   {
     name: 'Hamish Tennent',
@@ -142,45 +149,6 @@ var people = [
     link: 'http://infosci.cornell.edu/forward-thinking-people/research-staff/hamish-tennent',
     image: '/assets/img/people/hamish.jpg',
     email: 'ht353@cornell.edu'
-  },
-  {
-    name: 'Trinh Le',
-    title: 'Graduate Researcher',
-    link: 'https://tnl25.github.io',
-    image: '/assets/img/people/trinh.jpg',
-    email: 'tnl25@cornell.edu'
-  },
-  {
-    name: 'Dana Daniels',
-    title: 'Undergraduate Researcher',
-    image: '/assets/img/people/dana.jpg',
-    email: 'dbd62@cornell.edu'
-  },
-  {
-    name: 'Mauricio Moreyra ',
-    title: 'Undergraduate Researcher',
-    image: '/assets/img/people/mauricio.jpg',
-    email: 'mrm343@cornell.edu'
-  },
-  {
-    name: 'Dou Mao',
-    title: 'Undergraduate Researcher',
-    link: 'http://itsdou.com/',
-    image: '/assets/img/people/dou.jpg',
-    email: 'dm577@cornell.edu'
-  },
-  {
-    name: 'Pehuén Moure',
-    title: 'Undergraduate Researcher',
-    image: '/assets/img/people/pehuen.jpg',
-    email: 'ppm44@cornell.edu'
-  },
-  {
-    name: 'Justina Chen',
-    title: 'Undergraduate Researcher',
-    link: 'http://www.justinachen.me',
-    image: '/assets/img/people/justina.jpg',
-    email: 'jjc382@cornell.edu',
   },
 ];
 
@@ -198,6 +166,14 @@ var projectareas = [
 
 
 var news = [
+  {
+		title: 'Solace\'s paper on cultural differences in the behaviour of telepresence robot operators got accepted into CHI 2018! Congratulations Solace.',
+		date: '12/2017'
+	},
+  {
+		title: '3 Of the labs papers got accepted into HRI 2018! See you in Chicago',
+		date: '10/2017'
+	},
   {
 		title: 'Be sure to sign up for Maltes Robots in Groups and Teams Workshop for CSCW 2017',
 		date: '1/2017'
