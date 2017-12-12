@@ -2,6 +2,46 @@ var marked = require('marked');
 
 var publications = [
   {
+  	mobileInfo: '',
+     title: '',
+     author: 'Malte Jung',
+     conference: 'CHI 2017',
+     type: 'Panel',
+     image: '/assets/img/publication/.png',
+     links: [['PDF', '/assets/papers/chipanel.pdf']],
+     abstract: ''
+   },
+    {
+    	mobileInfo: 'Hamish Tennent: Good Vibrations, How Consequential Sounds Affect Perception of Robotic Arms',
+       title: 'How Consequential Sounds Affect Perception of Robotic Arms',
+       author: 'Hamish Tennent, Dylan Moore, Malte Jung, Wendy Ju',
+       conference: 'Ro-Man 2017',
+       type: 'Full Paper',
+       image: '/assets/img/publication/vibrations.png',
+       links: [['PDF', '/assets/papers/vibrations.pdf']],
+       abstract: 'How does a robot’s sound shape our perception of it? We overlaid sound from high-end and low-end robot arms on videos of the high-end KUKA youBot desktop robotic arm moving a small block in functional (working in isolation) and social (interacting with a human) contexts.'
+     },
+     {
+     	mobileInfo: 'Gabriel Culbertson: Facilitating Development of Pragmatic Competence through a Voice-driven Video Learning Interface',
+        title: 'Facilitating Development of Pragmatic Competence through a Voice-driven Video Learning Interface',
+        author: 'Gabriel Culbertson, Solace Shen, Malte Jung, and Erik Andersen',
+        conference: 'CHI 2017',
+        type: 'Full Paper',
+        image: '/assets/img/publication/facilitating.png',
+        links: [['PDF', '/assets/papers/facilitating.pdf']],
+        abstract: 'In this paper we present a voice-driven system where learners practice and learn a foreign language by repeating phrases out loud from any video. Utterances are transcribed and translated and, if captions are available, the system indicates the correctness of the utterance.'
+      },
+  {
+  	mobileInfo: 'Malte Jung: Robots in Group Context: Rethinking Design, Development and Deployment',
+     title: 'Robots in Group Context: Rethinking Design, Development and Deployment',
+     author: 'Malte F. Jung, Matt Beane, Jodi Forlizzi, Robin Murphy, Janet Vertesi',
+     conference: 'CHI 2017',
+     type: 'Panel',
+     image: '/assets/img/publication/chipanel.png',
+     links: [['PDF', '/assets/papers/chipanel.pdf']],
+     abstract: 'This panel brings together experts on design, robotics, organizational behavior, team dynamics and science and technology studies to discuss challenges and opportunities arising from the increased participation of robots in teams groups and organizations.'
+   },
+  {
   	mobileInfo: 'Malte Jung: Affective Grounding in Human-Robot Interaction',
      title: 'Affective Grounding in Human-Robot Interaction',
      author: 'Malte Jung',
@@ -12,7 +52,7 @@ var publications = [
      abstract: 'The paper contributes a review and critique of current perspectives on emotion in HRI. Further it outlines how research on emotion in HRI can benefit from taking an affective grounding perspective and outlines implications for the design of robots capable of participating in the coordination on affect in interaction.'
    },
   {
-  	mobileInfo: 'Solace Shence: A Benefit of Thinking Like a Robot',
+  	mobileInfo: 'Solace Shen: A Benefit of Thinking Like a Robot',
      title: 'A Benefit of Thinking Like a Robot',
      author: 'Solace Shen, Malte Jung',
      conference: 'HRI 2017',
@@ -62,6 +102,16 @@ var publications = [
     abstract: 'Learning a second language is challenging. Becoming fluent requires learning contextual information about how language should be used as well as word meanings and grammar. The majority of existing language learning applications provide only thin context around content.'
   },
   {
+  	mobileInfo: 'Malte Jung: Using Robots to Moderate Team Conflict: The Case of Repairing Violations',
+     title: 'Using Robots to Moderate Team Conflict: The Case of Repairing Violations',
+     author: 'Malte Jung, Nikolas Martelaro, Pamela J. Hinds',
+     conference: 'HRI 2015',
+     type: 'Full Paper',
+     image: '/assets/img/publication/moderate.png',
+     links: [['PDF', '/assets/papers/moderate.pdf']],
+     abstract: 'We explore whether robots can positively influence conflict dynamics by repairing interpersonal violations that occur during a team-based problem-solving task.'
+   },
+  {
    mobileInfo: 'Gabriel Culbertson: Crystallize: Simulating Language Immersion through Gameplay',
      title: 'Crystallize: Simulating Language Immersion through Gameplay',
      author: 'Gabriel Culbertson',
@@ -71,7 +121,17 @@ var publications = [
      links: [['PDF', '/assets/papers/crystallize-2.pdf']],
      abstract: 'Crystallize takes a first step towards this goal by providing a structured immersive experience. Instead of memorizing vocabulary words and grammar, the player solves linguistic puzzles, interacts with the environment, and infers word meanings from context.'
    },
-];
+   {
+    mobileInfo: 'Malte Jung: Participatory Materials: Having a Reflective Conversationwith an Artifact in the Making',
+      title: 'Participatory Materials: Having a Reflective Conversation with an Artifact in the Making',
+      author: 'Malte Jung,  Nikolas Martelaro, Halsey Holster, Clifford Nass',
+      conference: 'DIS 2014',
+      type: 'Full Paper',
+      image: '/assets/img/publication/participatory.png',
+      links: [['PDF', '/assets/papers/participatory.pdf']],
+      abstract: 'Drawing from a notion of designing as a conversation with the materials of the situation we built an artifact that could actively engage in its own making by embedding a Wizard of Oz operated animated agent into an Arduino prototyping platform.'
+    },
+  ];
 
 
 var projects = [

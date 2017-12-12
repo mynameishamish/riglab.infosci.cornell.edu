@@ -7,3 +7,7 @@
 $ npm install
 $ gulp watch
 ```
+
+
+To Fix:
+Main.js is not compiling correctly and so we are not getting any styling. For the moment, use the existing file and just replace index.html+assets folder
