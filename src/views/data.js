@@ -1,6 +1,46 @@
 var marked = require('marked');
 
 var publications = [
+  {
+    mobileInfo: 'Malte Jung: Robots in the Wild: A Time for More Robust Theories of Human-Robot Interaction',
+     title: 'Robots in the Wild: A Time for More Robust Theories of Human-Robot Interaction',
+     author: 'Malte Jung, Pamela Hinds',
+     conference: 'Transactions on Human-Robot Interaction (THRI)',
+     type: 'Full Paper',
+     image: '/assets/img/publication/wild.png',
+     links: [['PDF', '/assets/papers/wild.pdf']],
+     abstract: 'We have a limited understanding of how people will respond to robots in complex social settings and howrobots will affect social dynamics in situ. In particular, our theories reflect an oversimplified view of HRI. The time is ripe for studies that tackle HRI in these complex settings and build generalizable theories about what to expect of HRI in the wild'
+   },
+   {
+     mobileInfo: 'Yoyo Tsung-Yu Hou: Robots in Power',
+      title: 'Robots in Power',
+      author: 'Yoyo Tsung-Yu Hou, Malte Jung',
+      conference: 'Human Robot Interaction 2018 (HRI)',
+      type: 'Extended Abstract',
+      image: '/assets/img/publication/power.png',
+      links: [['PDF', '/assets/papers/power.pdf']],
+      abstract: 'While power affects interactions in every work group, we know little about its role in human-robot teams. In this paper, we propose a framework to address power in Human-Robot Interaction (HRI).'
+    },
+    {
+      mobileInfo: 'Houston Claure: Understanding Social Dynamics in Robot-Human Handovers Through the Lens of Expectancy Violations Theory: Go',
+       title: 'Understanding Social Dynamics in Robot-Human Handovers Through the Lens of Expectancy Violations Theory',
+       author: 'Houston Claure, Malte Jung',
+       conference: 'Human Robot Interaction 2018 (HRI)',
+       type: 'Extended Abstract',
+       image: '/assets/img/publication/handover.png',
+       links: [['PDF', '/assets/papers/handover.pdf']],
+       abstract: 'We use expectancy violation theory to understand people’s response to such violations of expectation and investigate how this impacts task completion and the experience of the task. We propose that a violation of expectation may not always lead to detrimental effects on the experience of the task but may impact the overall task completion.'
+     },
+     {
+       mobileInfo: 'Solace Shen: My Telepresence, My Culture? An Intercultural Investigation of Telepresence Robot Operators’ Interpersonal Distance Behaviors',
+        title: 'My Telepresence, My Culture? An Intercultural Investigation of Telepresence Robot Operators’ Interpersonal Distance Behaviors',
+        author: 'Solace Shen, Hamish Tennent, Houston Claure, Malte Jung',
+        conference: 'CHI 2018',
+        type: 'Full Paper',
+        image: '/assets/img/publication/telepresence.png',
+        links: [['PDF', '/assets/papers/telepresence.pdf']],
+        abstract: 'Interpersonal distance behaviors can vary significantly across countries and impact human social interaction. Do these crosscultural differences play out when one of the interaction partners participates through a teleoperated robot?'
+      },
     {
     	mobileInfo: 'Hamish Tennent: Good Vibrations, How Consequential Sounds Affect Perception of Robotic Arms',
        title: 'How Consequential Sounds Affect Perception of Robotic Arms',
@@ -208,6 +248,20 @@ var people = [
     email: 'th588@cornell.edu'
   },
   {
+    name: 'Rei (Wen-Ying) Lee',
+    title: 'PhD Student',
+    link: '',
+    image: '/assets/img/people/rei.jpg',
+    email: 'wl593@cornell.edu'
+  },
+  {
+    name: 'Cristina Zaga',
+    title: 'PhD Candidate/Visiting Scholar ',
+    link: 'http://cristinazaga.xyz',
+    image: '/assets/img/people/cristina.jpg',
+    email: 'cz444@cornell.edu'
+  },
+  {
     name: 'Hamish Tennent',
     title: 'Visiting Scientist',
     link: 'https://mynameishamish.website/',
@@ -223,33 +277,44 @@ var projectareas = [
     text: 'Assistant Professor',
 
   },
-
-
 ];
 
 
 
 var news = [
   {
+		title: 'We are about to be opening the doors of our lab to kids from 7 to 11 years old. From 8/20 trough 9/9 we are going to run a robot design workshop. Parents, educators and younger and older siblings can tag along too and the event is completely free as it is part of our research on designing developmentally appropriate toy robots for children. You can sign up at this link http://bit.ly/robotkidsevent or contact Cristina Zaga (cz444@cornell.edu)',
+    image: '/assets/img/people/hamish.jpg',
+    date: '8/2018'
+	},
+  {
+		title: 'Gabe has succesfully defenced his thesis, congratulations Gabe! Best of luck in your new role at Google.',
+		date: '6/2018'
+	},
+  {
+		title: 'Rei passed her A-exam and will continuing building her sketching robots into the fall, congratulations!',
+		date: '5/2018'
+	},
+  {
 		title: 'Solace\'s paper on cultural differences in the behaviour of telepresence robot operators got accepted into CHI 2018! Congratulations Solace.',
 		date: '12/2017'
 	},
-  {
-		title: '3 of our papers got accepted into HRI 2018! See you in Chicago',
-		date: '10/2017'
-	},
-  {
-		title: 'Be sure to sign up for Maltes Robots in Groups and Teams Workshop for CSCW 2017',
-		date: '1/2017'
-	},
-  {
-		title: 'Solace and Maltes papers were accepted to HRI 2017! PDFs are available below',
-		date: '12/2016'
-	},
-	{
-		title: 'We have a new website! Look how shiny it is!',
-		date: '9/2016'
-	},
+  // {
+	// 	title: '3 of our papers got accepted into HRI 2018! See you in Chicago',
+	// 	date: '10/2017'
+	// },
+  // {
+	// 	title: 'Be sure to sign up for Maltes Robots in Groups and Teams Workshop for CSCW 2017',
+	// 	date: '1/2017'
+	// },
+  // {
+	// 	title: 'Solace and Maltes papers were accepted to HRI 2017! PDFs are available below',
+	// 	date: '12/2016'
+	// },
+	// {
+	// 	title: 'We have a new website! Look how shiny it is!',
+	// 	date: '9/2016'
+	// },
 
 
 ].map(function(n) {
